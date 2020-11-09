@@ -9,6 +9,6 @@ import java.util.Base64;
 public class ImgTest {
     public static void main(String[] args) {
         Base64.Decoder decoder = Base64.getDecoder();
-
+        System.out.println("yes");
     }
 }
